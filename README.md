@@ -101,7 +101,7 @@ This project has been tested on a Debian 11 distro.
 
 The examples folder contains some domains and problems taken from PlanningDomains.jl. <br/>
 Inside the Planner.jl file you can choose which domain and problem file to use and which algorithm and heuristic suits better for your usage.<br/>
-As a result, at the end of the execution a txt file for each solution (ie. `blocksworld_problem-9_greedyplanner_hmax.txt`) will be placed inside the `output` folder. <br/>
+As a result, at the end of the execution a txt file (ie. `blocksworld_problem-9_greedyplanner_hmax.txt`) for each solution will be placed inside the `output` folder. <br/>
 The generated file contains the solution of the planning based on the algorithm and heuristics chosen.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
