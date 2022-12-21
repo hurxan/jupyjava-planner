@@ -57,7 +57,7 @@
 ## About The Project
 
 The general behavior of the program is defined inside the Planner.jl file.<br/>
-This is the Julia file that contains the kernel of the project where you can choose which file you need to solve by changing the domain and problem files.<br>
+The Julia file contains the kernel of the project where you can choose which file you need to solve by changing the domain and problem files.<br>
 The Planner.py file is a simple wrapper to the Planner.jl file, it replicates the behaviour of the original planner and prints the results to the standard output.<br/>
 The Planner.java file runs the python wrapper and measures the time of execution.
 
