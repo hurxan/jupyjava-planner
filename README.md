@@ -1,4 +1,4 @@
-# GazepointBiometrics PsychoPy Experiment
+# JuPyJava PDDL Planner
 
 <div id="top"></div>
 
