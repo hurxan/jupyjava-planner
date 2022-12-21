@@ -56,8 +56,9 @@
 
 ## About The Project
 
-The general behavior of the program is defined inside the Planner.jl file. This is the Julia file that contains the kernel of the project where you can choose which file you need to solve by changing the domain and problem files.<br>
-The Planner.py file is a simple wrapper to the Planner.jl file, it replicates the behaviour of the original planner and prints the results to the standard output.
+The general behavior of the program is defined inside the Planner.jl file.<br/>
+This is the Julia file that contains the kernel of the project where you can choose which file you need to solve by changing the domain and problem files.<br>
+The Planner.py file is a simple wrapper to the Planner.jl file, it replicates the behaviour of the original planner and prints the results to the standard output.<br/>
 The Planner.java file runs the python wrapper and measures the time of execution.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -98,12 +99,10 @@ This project has been tested on a Debian 11 distro.
 
 ## Usage
 
-Inside the examples folder there are some example domains taken from PlanningDomains.jl. Inside the Planner.jl file you can choose which domain and problem file to use and which algorithm and heuristic suits better for your usage.<br/>
-As a result, at the end of the execution a txt file for each solution(ie. `blocksworld_problem-9_greedyplanner_hmax.txt`) will be placed inside the `output` folder.
-
+The examples folder contains some domains and problems taken from PlanningDomains.jl. <br/>
+Inside the Planner.jl file you can choose which domain and problem file to use and which algorithm and heuristic suits better for your usage.<br/>
+As a result, at the end of the execution a txt file for each solution (ie. `blocksworld_problem-9_greedyplanner_hmax.txt`) will be placed inside the `output` folder. <br/>
 The generated file contains the solution of the planning based on the algorithm and heuristics chosen.
-
-_For more details about the data, please refer to the [OpenGaze API Documentation](https://www.gazept.com/downloads/)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -127,7 +126,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ## Contact
 
-Andrei Senyuva - hurcanandrei.senyuva@unipd.it
+Andrei Senyuva - senyuva.andrei@gmail.com
 
 [Project Link](https://github.com/hurxan/JuPyJava_Planner)
 
@@ -137,7 +136,7 @@ Andrei Senyuva - hurcanandrei.senyuva@unipd.it
 
 ## Acknowledgments
 
-- [JuliaPlanner PlanningDomains.jl](https://github.com/JuliaPlanners/PlanningDomains.jl)
+- [PlanningDomains.jl](https://github.com/JuliaPlanners/PlanningDomains.jl)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
